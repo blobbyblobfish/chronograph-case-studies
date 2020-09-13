@@ -21,3 +21,10 @@ def list
 
     return @reports
 end
+
+# SQL query to return document names and number of pages
+    # SELECT name
+    # COUNT(pages.id) 
+    # FROM document 
+    # INNER JOIN page ON pages.document_id = document.id
+    # GROUP BY document.id

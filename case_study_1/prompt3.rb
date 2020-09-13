@@ -8,3 +8,9 @@ def percent_with_footnote
     # answer is a rounded whole number %
     return @percent
 end
+
+# Optimize solution
+    # @footnote_count = Page.where.not(footnote: nil)
+
+# Return the IDs of pages without footnotes
+    # SELECT id FROM pages WHERE footnote IS null
